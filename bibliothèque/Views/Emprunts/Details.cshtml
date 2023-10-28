@@ -1,0 +1,45 @@
+﻿@model Emprunt
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+
+
+
+<h1>Details</h1>
+
+<div>
+    <h4>Emprunt</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            <label class="control-label">Livre ID</label>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.LivreId)
+        </dd>
+        <dt class="col-sm-2">
+            <label class="control-label">Abonne ID</label>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.AbonneId)
+        </dd>
+        <dt class="col-sm-2">
+            <label class="control-label">Date d'Emprunt</label>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DateEmprunt)
+        </dd>
+        <dt class="col-sm-2">
+            <label class="control-label">Date de Retour</label>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DateRetour)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-primary">Edit</a>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>
