@@ -1,0 +1,83 @@
+<mxfile host="app.diagrams.net" modified="2023-12-18T15:18:44.320Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" version="22.1.11" etag="auoUM243l4Jz-zxSKlTl" type="github">
+  <diagram name="Page-1" id="jqYzRB08UIW0osOjJptk">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Abonné" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry width="150" height="751" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Bibliothèque" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="281" width="150" height="751" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" vertex="1" parent="1">
+          <mxGeometry x="65" y="368" width="376" height="278" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="[Livre disponible]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="4">
+          <mxGeometry x="30" width="346" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="[Livre indisponible]" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" vertex="1" parent="4">
+          <mxGeometry y="185" width="376" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="loop" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=40" vertex="1" parent="1">
+          <mxGeometry x="55" y="209" width="407" height="447" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="7">
+          <mxGeometry x="40" width="367" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Sélectionne option d&#39;emprunt" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="226" y="107" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="Affiche liste des livres disponibles" style="curved=1;" edge="1" parent="1" source="3" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="406" y="159" />
+              <mxPoint x="406" y="189" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="Choisi livre à emprunter" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="226" y="266" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="Vérifie disponibilité du livre" style="curved=1;" edge="1" parent="1" source="3" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="406" y="318" />
+              <mxPoint x="406" y="348" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="Enregistre l&#39;emprunt" style="curved=1;" edge="1" parent="1" source="3" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="406" y="446" />
+              <mxPoint x="406" y="476" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="Confirme l&#39;emprunt" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="3" target="2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="226" y="528" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="Livre indisponible" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="3" target="2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="226" y="626" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
