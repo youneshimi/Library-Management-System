@@ -1,0 +1,41 @@
+<mxfile host="app.diagrams.net" modified="2023-12-18T14:22:08.381Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" version="22.1.11" etag="7sOAl9LvFcpLMk24QEay" type="github">
+  <diagram name="Page-1" id="I6ph8tH6DNj-LJmPJ_fG">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Livres" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="143" width="57" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Emprunts" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="49" y="84" width="82" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="ID_Livre" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="135" y="187" width="73" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="" style="curved=1;startArrow=none;endArrow=none;exitX=-0.0046784250359786185;exitY=0.9346240403549355;entryX=0.5035568795553068;entryY=0;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="59" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6" value="La clé étrangère ID_Livre" style="curved=1;startArrow=none;endArrow=none;exitX=0.5035568795553068;exitY=1;entryX=0.1300327662759551;entryY=0;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="153" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7" value="La clé primaire ID_Livre" style="curved=1;startArrow=none;endArrow=none;exitX=0.9941520021672834;exitY=0.9346240403549355;entryX=0.8617479720320501;entryY=0;" edge="1" parent="1" source="2" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="252" y="59" />
+              <mxPoint x="252" y="153" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
