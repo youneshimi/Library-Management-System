@@ -1,0 +1,111 @@
+<mxfile host="app.diagrams.net" modified="2023-12-18T13:50:29.148Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" version="22.1.11" etag="o7Ew2t_9uDk3BUkBxoZU" type="github">
+  <diagram name="Page-1" id="gDlD-2NmJC4Mcbx19QBE">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Application .NET" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="41" width="135" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Interface utilisateur pour la gestion de la bibliothèque. Écrit en C#" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="266" width="496" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Base de Données SQL Server" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry y="210" width="216" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Stocke les informations essentielles" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="379" y="84" width="271" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Tables : Livres" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="456" y="168" width="117" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Tables : Abonnés" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="447" y="252" width="135" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Tables : Emprunts" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="443" y="336" width="142" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Connexion" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="64" y="462" width="89" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Utilise Entity Framework pour la communication" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="333" y="420" width="362" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Requêtes SQL pour interagir avec les données" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="343" y="504" width="342" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="Tables de la Base de Données : Livres" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="825" y="168" width="282" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="Tables de la Base de Données : Abonnés" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="816" y="252" width="300" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="Tables de la Base de Données : Emprunts" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="812" y="336" width="307" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.9976543285228588;exitY=0.5;entryX=0.0009744705692414314;entryY=0.5;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5843459224084208;exitY=0;entryX=0.00018445680062269374;entryY=0.5;" edge="1" parent="1" source="4" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="241" y="101" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.7508000940662632;exitY=0;entryX=-0.0009971683860844017;entryY=0.5;" edge="1" parent="1" source="4" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="241" y="185" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.7508000940662632;exitY=1;entryX=0.00018513997395833333;entryY=0.5;" edge="1" parent="1" source="4" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="241" y="269" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5843459224084208;exitY=1;entryX=0.0013497580944652288;entryY=0.5;" edge="1" parent="1" source="4" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="241" y="353" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="20" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.9987828115398965;exitY=0.0860462813509825;entryX=0.00046041920698808704;entryY=0.5;" edge="1" parent="1" source="9" target="10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="241" y="437" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.9987828115398965;exitY=0.9139537186490175;entryX=0.001193933319627193;entryY=0.5;" edge="1" parent="1" source="9" target="11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="241" y="521" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.9990028316139156;exitY=0.5;entryX=-0.00008868494777814716;entryY=0.5;" edge="1" parent="1" source="6" target="12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.9980864348234953;exitY=0.5;entryX=0.00038884480794270835;entryY=0.5;" edge="1" parent="1" source="7" target="13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1.0040492742833957;exitY=0.5;entryX=0.0009228833723534202;entryY=0.5;" edge="1" parent="1" source="8" target="14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
