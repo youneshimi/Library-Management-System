@@ -1,66 +1,88 @@
-<mxfile host="app.diagrams.net" modified="2024-01-04T11:46:01.058Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" version="22.1.16" etag="uSJVULBQWEATaZtc9XSP" type="github">
-  <diagram name="Page-1" id="_pzgfTwimxOGg5HYIz-y">
+<mxfile host="app.diagrams.net" modified="2024-01-04T11:48:48.759Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" version="22.1.16" etag="Pt9k7_H2wiLKFAik4tMA" type="github">
+  <diagram name="Page-1" id="W9Msgg3vlLzpjY2kHFV2">
     <mxGraphModel>
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="Ajouter Livre" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry y="84" width="109" height="34" as="geometry" />
+        <mxCell id="2" value="&#xa;Ajouter Livre" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="10" width="109" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="Acteur: Utilisateur" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="508" y="42" width="149" height="34" as="geometry" />
+        <mxCell id="3" value="Acteur" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="268" y="65" width="62" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="Description: L&#39;utilisateur peut ajouter un nouveau livre en fournissant les détails tels que le nom, l&#39;auteur et le prix" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="159" y="126" width="846" height="34" as="geometry" />
+        <mxCell id="4" value="Description" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1008" y="95" width="130" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="Modifier Livre" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1063" width="114" height="34" as="geometry" />
+        <mxCell id="5" value="Utilisateur" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="254" y="182" width="91" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="Description: L&#39;utilisateur a la possibilité de modifier les détails d&#39;un livre existant, tels que le nom, l&#39;auteur et le prix" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1234" width="857" height="34" as="geometry" />
+        <mxCell id="6" value="&#xa;Modifier Livre" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="7" y="84" width="114" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="7" value="Supprimer Livre" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1055" y="84" width="129" height="34" as="geometry" />
+        <mxCell id="7" value="&#xa;Supprimer Livre" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry y="168" width="129" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="8" value="Description: L&#39;utilisateur peut supprimer un livre de la bibliothèque, ce qui entraînera également" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1305" y="84" width="715" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.9974273067192744;exitY=0.2951552322200788;entryX=-0.003143243622361568;entryY=0.5;" edge="1" parent="1" source="3" target="5">
+        <mxCell id="8" value="Utilisateur" style="curved=1;startArrow=none;endArrow=block;exitX=0.9989296449433773;exitY=0.5;entryX=0.04632517754301228;entryY=-0.014705882352941176;" edge="1" parent="1" source="2" target="3">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1030" y="17" />
+              <mxPoint x="191" y="17" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.9974273067192744;exitY=0.7048447677799212;entryX=0.0032300135886022285;entryY=0.5;" edge="1" parent="1" source="3" target="7">
+        <mxCell id="9" value="Ajouter un nouveau livre en fournissant les détails tels que le nom, l&#39;auteur et le prix" style="curved=1;startArrow=none;endArrow=block;exitX=1.0087366411762853;exitY=0.3429478035313861;entryX=0.0025641808143028848;entryY=0.32429237283582146;" edge="1" parent="1" source="3" target="4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1030" y="101" />
+              <mxPoint x="676" y="23" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.7965050043628538;exitY=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="2" target="3">
+        <mxCell id="10" value="Ajouter Livre" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.9956044626759959;exitY=0.27880831543917095;entryX=0.0025641808143028848;entryY=0.4716022071084141;" edge="1" parent="1" source="5" target="4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="134" y="59" />
+              <mxPoint x="676" y="140" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.7965050043628538;exitY=1;entryX=0.0002364030121066046;entryY=0.5;" edge="1" parent="1" source="2" target="4">
+        <mxCell id="11" value="Utilisateur" style="curved=1;startArrow=none;endArrow=block;exitX=1.0029970804850261;exitY=0.5;entryX=0.002285003662109375;entryY=0.6509548258230621;" edge="1" parent="1" source="6" target="3">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="134" y="143" />
+              <mxPoint x="191" y="101" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.9978801660370409;exitY=0.5;entryX=-0.000019442937755250874;entryY=0.5;" edge="1" parent="1" source="5" target="6">
+        <mxCell id="12" value="Modifier les détails d&#39;un livre existant, tels que le nom, l&#39;auteur et le prix" style="curved=1;startArrow=none;endArrow=block;exitX=1.0087366411762853;exitY=0.4378453462751679;entryX=0.0025641808143028848;entryY=0.37339565092668575;" edge="1" parent="1" source="3" target="4">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
+            <Array as="points">
+              <mxPoint x="676" y="62" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.9998708325763082;exitY=0.5;entryX=-0.0005244755244755245;entryY=0.5;" edge="1" parent="1" source="7" target="8">
+        <mxCell id="13" value="Modifier Livre" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.9956044626759959;exitY=0.41646551691109623;entryX=0.0025641808143028848;entryY=0.5207054851992782;" edge="1" parent="1" source="5" target="4">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
+            <Array as="points">
+              <mxPoint x="676" y="179" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="Utilisateur" style="curved=1;startArrow=none;endArrow=block;exitX=0.996640818987706;exitY=0.5;entryX=0.21935165242389357;entryY=0.9852941176470589;" edge="1" parent="1" source="7" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="191" y="185" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="Supprimer un livre de la bibliothèque" style="curved=1;startArrow=none;endArrow=block;exitX=1.0087366411762853;exitY=0.5327428890189497;entryX=0.0025641808143028848;entryY=0.4224989290175498;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="676" y="101" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="Supprimer Livre" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.9956044626759959;exitY=0.5541227183830214;entryX=0.0025641808143028848;entryY=0.5698087632901425;" edge="1" parent="1" source="5" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="676" y="218" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
