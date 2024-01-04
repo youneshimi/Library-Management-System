@@ -1,0 +1,146 @@
+<mxfile host="app.diagrams.net" modified="2024-01-04T11:42:53.628Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" version="22.1.16" etag="AQuMoyWou4KDsL1Iv7rJ" type="github">
+  <diagram name="Page-1" id="rj5fyU2t6xDqqrjjQ99d">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="" style="ellipse;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="120" y="8" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="AjouterLivre" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;startSize=25;container=0;collapsible=0;rounded=1;arcSize=14;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="8" y="72" width="193" height="702" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="ModifierLivre" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;startSize=25;container=0;collapsible=0;rounded=1;arcSize=14;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="617" y="180" width="287" height="594" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="SupprimerLivre" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;startSize=25;container=0;collapsible=0;rounded=1;arcSize=14;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="285" y="288" width="312" height="378" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="" style="ellipse;shape=endState;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="236" y="411" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="" style="ellipse;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="120" y="97" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="AjouterDetails" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="43" y="504" width="118" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Enregistrer" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="711" y="607" width="94" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="" style="ellipse;shape=endState;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="97" y="735" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="" style="ellipse;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="753" y="205" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="SélectionnerLivre" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="407" y="401" width="140" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="ModifierDetails" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="696" y="504" width="123" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="" style="ellipse;shape=endState;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="811" y="735" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="" style="ellipse;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="411" y="316" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="Confirmer" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="377" y="504" width="87" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="" style="ellipse;shape=endState;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="413" y="617" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="" style="curved=1;startArrow=none;;exitX=0.18172329920704705;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="7" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="102" y="146" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" value="Valider" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=-0.0048316387420004984;entryY=0.3915446868123541;" edge="1" parent="1" source="8" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="102" y="573" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="20" value="Livre Ajouté" style="curved=1;startArrow=none;;exitX=0.2350419405866655;exitY=1;entryX=1.0303570883614677;entryY=0.46499711795884685;" edge="1" parent="1" source="9" target="10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="697" y="666" />
+              <mxPoint x="697" y="701" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" value="Sélectionner" style="curved=1;startArrow=none;;exitX=0.8141814000430097;exitY=1;entryX=1.001249967302595;entryY=0.15844051946857676;" edge="1" parent="1" source="11" target="12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="788" y="254" />
+              <mxPoint x="788" y="367" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" value="Modifier" style="curved=1;startArrow=none;;exitX=0.6011465345110212;exitY=1;entryX=0.00016933534203506098;entryY=0.10842134679866684;" edge="1" parent="1" source="12" target="13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23" value="Valider" style="curved=1;startArrow=none;;exitX=0.49983057161656824;exitY=1;entryX=0.4944591522216797;entryY=0;" edge="1" parent="1" source="13" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24" value="Détails Modifiés" style="curved=1;startArrow=none;;exitX=0.7538763638566939;exitY=1;entryX=0.48035662514822824;entryY=0;" edge="1" parent="1" source="9" target="14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="818" y="666" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="25" value="Sélectionner" style="curved=1;startArrow=none;;exitX=0.9857140949794224;exitY=0.8354371295802382;entryX=0.5005356924874442;entryY=0;" edge="1" parent="1" source="15" target="12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="477" y="367" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="26" value="Confirmer" style="curved=1;startArrow=none;;exitX=0.3663649838112925;exitY=1;entryX=0.4962164560953776;entryY=0;" edge="1" parent="1" source="12" target="16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="27" value="Livre Supprimé" style="curved=1;startArrow=none;;exitX=0.4962164560953776;exitY=1;entryX=0.512202262878418;entryY=0;" edge="1" parent="1" source="16" target="17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28" value="" style="curved=1;startArrow=none;;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="29" value="Modifier" style="curved=1;startArrow=none;;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30" value="Supprimer" style="curved=1;startArrow=none;;" edge="1" parent="1" source="4" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="31" value="Livre Supprimé" style="curved=1;startArrow=none;;" edge="1" parent="1" source="5" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
